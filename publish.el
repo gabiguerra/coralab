@@ -27,9 +27,12 @@
 
 ;; Defaults to localhost:8000
 (if (string= (getenv "ENV") "prod")
-    (setq weblorg-default-url "https://emacs.love/weblorg-template"))
+    (setq weblorg-default-url "https://coralab.art"))
 (if (string= (getenv "ENV") "local")
     (setq weblorg-default-url "http://localhost:8000"))
+
+;; Set site wide configuration
+(weblorg-site :theme nil)
 
 ;; Generate blog posts
 (weblorg-route
@@ -47,13 +50,21 @@
  :output "docs/{{ slug }}/index.html"
  :url "/{{ slug }}")
 
-;; Generate posts summary
+;; Home
 (weblorg-route
  :name "index"
+ :input-pattern "src/pages/inicio.org"
+ :template "page.html"
+ :output "docs/index.html"
+ :url "/")
+
+;; Generate posts summary
+(weblorg-route
+ :name "historias"
  :input-pattern "src/posts/*.org"
  :input-aggregate #'weblorg-input-aggregate-all-desc
  :template "blog.html"
- :output "docs/index.html"
+ :output "docs/historias/index.html"
  :url "/")
 
 (weblorg-route
