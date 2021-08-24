@@ -1,4 +1,4 @@
 #+OPTIONS: toc:nil num:nil
 #+OPTIONS: ^:nil
 
-* Coralab
+* CORA_LAB
