@@ -12,27 +12,27 @@
   <channel>
     <title>Simple Blog</title>
     <atom:link
-      href="https://coralab.art/feed.xml"
+      href="http://coralab.art/feed.xml"
       rel="self" type="application/rss+xml" />
-    <link>https://coralab.art/</link>
+    <link>http://coralab.art/</link>
     <description><![CDATA[]]></description>
     <language>en</language>
     <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
-    <lastBuildDate>Tue, 24 Aug 2021 01:40:47 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Aug 2021 01:50:59 +0000</lastBuildDate>
     <generator>weblorg 0.1.0 (https://emacs.love/weblorg)</generator>
     <webMaster>web@master (Blog Author)</webMaster>
     <image>
-      <url>https://coralab.art/media/img/8bitme.png</url>
+      <url>http://coralab.art/media/img/8bitme.png</url>
       <title>Blog Author</title>
-      <link>https://coralab.art/</link>
+      <link>http://coralab.art/</link>
     </image>
 
     
     <item>
       <title>Welcome to weblorg</title>
-      <link>https://coralab.art/posts/welcome-to-weblorg.html</link>
+      <link>http://coralab.art/posts/welcome-to-weblorg.html</link>
       <author>Guilherme Guerra</author>
-      <guid isPermaLink="false">https://coralab.art/posts/welcome-to-weblorg.html</guid>
+      <guid isPermaLink="false">http://coralab.art/posts/welcome-to-weblorg.html</guid>
       
         <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
       
@@ -57,9 +57,9 @@ You can do markups on your post just follow this cheatsheet
     
     <item>
       <title>Down the Rabbit-Hole</title>
-      <link>https://coralab.art/posts/down-the-rabbit-hole.html</link>
+      <link>http://coralab.art/posts/down-the-rabbit-hole.html</link>
       <author>Carroll, Lewis</author>
-      <guid isPermaLink="false">https://coralab.art/posts/down-the-rabbit-hole.html</guid>
+      <guid isPermaLink="false">http://coralab.art/posts/down-the-rabbit-hole.html</guid>
       
         <pubDate>Sun, 26 Nov 1865 00:00:00 +0000</pubDate>
       
