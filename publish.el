@@ -54,7 +54,7 @@
 (weblorg-route
  :name "index"
  :input-pattern "src/pages/inicio.org"
- :template "page.html"
+ :template "home.html"
  :output "docs/index.html"
  :url "/")
 
