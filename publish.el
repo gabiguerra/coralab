@@ -27,7 +27,7 @@
 
 ;; Defaults to localhost:8000
 (if (string= (getenv "ENV") "prod")
-    (setq weblorg-default-url "https://coralab.art"))
+    (setq weblorg-default-url "http://coralab.art"))
 (if (string= (getenv "ENV") "local")
     (setq weblorg-default-url "http://localhost:8000"))
 
